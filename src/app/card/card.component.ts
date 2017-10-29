@@ -1,7 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Crib } from './../crib';
 import { by } from 'protractor';
-import { cribs } from './../data/cribs'
 
 @Component({
   selector: 'app-card',

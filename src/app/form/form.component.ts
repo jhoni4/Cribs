@@ -3,7 +3,6 @@ import { CribsService } from './../services/cribs.service';
 import { UtilService } from './../services/util.service';
 import { SortbyPipe } from '../pipes/sortby.pipe';
 import { Crib } from './../crib';
-import { cribs } from './../data/cribs'
 
 @Component({
   selector: 'app-form',
@@ -11,8 +10,7 @@ import { cribs } from './../data/cribs'
   styleUrls: ['./form.component.css']
 })
 export class FormComponent implements OnInit {
-  // cribs: Array<Crib> = [];
-  cribs: Array<Crib> = cribs;
+  cribs: Array<Crib> = [];
   error: string = '';
   sortField: string = 'price';
   sortDirection: string = 'asc';

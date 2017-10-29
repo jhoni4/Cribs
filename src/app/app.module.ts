@@ -11,6 +11,7 @@ import { AddlistingComponent } from './addlisting/addlisting.component';
 import { SortbyPipe } from './pipes/sortby.pipe';
 import { CribsService } from './services/cribs.service';
 import { UtilService } from './services/util.service';
+import { NavComponent } from './nav/nav.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { UtilService } from './services/util.service';
     FormComponent,
     CardComponent,
     AddlistingComponent,
-    SortbyPipe
+    SortbyPipe,
+    NavComponent
   ],
   imports: [
     BrowserModule,
